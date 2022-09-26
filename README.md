@@ -10,11 +10,12 @@ Create full stack apps with React and Express. Run your client, server and do a 
 3. To clean your folder from the owner git, run the command `rm -rf .git`
 4. Run the command `git init` to start your git repository
 5. Go to the server folder in the project (`cd server`) and run the command `npm install`
-6. Inside your server folder, create an .env file with `touch .env`
-7. Inside your server folder, open the file `.env.example` and copy the file there. 
-8. Inside your .env file, paste the string from .env.example and change the variables with the values from the project. For this template, don't change the name of your db.
-9. Inside your server file: run the command `psql -U postgres -f db.sql` to restore the DB from the file db.sql
-10. Go to the cliente folder (`cd .. and cd client`) and run the command `npm start`
-11. Both server should run now with `npm start`
-12. Go to localhost:3000 and you should see something like this
+6. Go to the client folder in the project (`cd client`) and run the command `npm install`
+7. Inside your server folder, create an .env file with `touch .env`
+8. Inside your server folder, open the file `.env.example` and copy the file there. 
+9. Inside your .env file, paste the string from .env.example and change the variables with the values from the project. For this template, don't change the name of your db.
+10. Inside your server file: run the command `psql -U postgres -f db.sql` to restore the DB from the file db.sql
+11. Go to the cliente folder (`cd .. and cd client`) and run the command `npm start`
+12. Both server should run now with `npm start`
+13. Go to localhost:3000 and you should see something like this
 [!You will something like this in your terminal.](https://github.com/Yosolita1978/screenshoots/blob/main/template/Screen%20Shot%202022-03-20%20at%208.58.13%20PM.png?raw=true)
