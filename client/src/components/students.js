@@ -8,14 +8,8 @@ function Students() {
     fetch("http://localhost:5000/api/students")
       .then((response) => response.json())
       .then((students) => {
-        //setStudents((students[3]));
-        //console.log("Testing", typeof students);
-        for (let index in students) {
-          if (index !== "3") {
             setStudents(students);
-          }
-        }
-      });
+          });
   }, []);
 
   const addStudent = (newStudent) => {
