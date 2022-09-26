@@ -15,7 +15,8 @@ Create full stack apps with React and Express. Run your client, server and do a 
 8. Inside your server folder, open the file `.env.example` and copy the file there. 
 9. Inside your .env file, paste the string from .env.example and change the variables with the values from the project. For this template, don't change the name of your db.
 10. Inside your server file: run the command `psql -f db.sql` to restore the DB from the file db.sql. If it gives error, try 'psql postgres -f db.sql'
-11. Go to the cliente folder (`cd .. and cd client`) and run the command `npm start`
-12. Both server should run now with `npm start`
-13. Go to localhost:3000 and you should see something like this
+11. Inside your server file .env change it to: DB_URI="postgresql://@localhost/techtonica1" to connect to database.
+12. Go to the cliente folder (`cd .. and cd client`) and run the command `npm start`
+13. Both server should run now with `npm start`
+14. Go to localhost:3000 and you should see something like this
 [!You will something like this in your terminal.](https://github.com/Yosolita1978/screenshoots/blob/main/template/Screen%20Shot%202022-03-20%20at%208.58.13%20PM.png?raw=true)
